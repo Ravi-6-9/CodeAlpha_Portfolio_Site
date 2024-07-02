@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+              <img src="images/2.png" class="logo name">
+              <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+            <div class="header-text">
+              <p>Front-End Trainee</p>
+              <h1>Hi, I'm <span>Ravi</span><br> From New Delhi, India</h1>
+              <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+        </div>
+    </div>
+
+<!-----------------------about section-------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-1">
+            <img src="images/9854753e91c94b5983528948e6c4b18c.jpeg">
+          </div>
+          <div class="col-2">
+            <h1 class="title">About Me</h1>
+            <p>I am currently a second-year student at Invertis University, pursuing a Bachelor of Computer Applications (BCA) with an expected graduation in 2025. My academic journey has equipped me with
+               foundational knowledge in key programming languages, including HTML, Python, and Java.</p>
+               <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                <p class="tab-links"onclick="opentab('education')">Education</p>
+               </div>
+               <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>HTML</span><br>Knows The Concepts Of HTML</li>
+                  <li><span>CSS</span><br>Knows The Concepts Of CSS</li>
+                  <li><span>JavaScript</span><br>Knows The Concepts Of JavaScript</li>
+                </ul>
+               </div>
+
+               <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>2024 - Current</span><br>Front-End Devloper Inter at CodeAlpha </li>
+                  <li><span>2024 - Current</span><br>Python Devloped Intern at Oasis Infobyte</li>
+                </ul>
+               </div>
+
+               <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2018</span><br>10<sup>th</sup> from CBSE Board</li>
+                  <li><span>2020</span><br>12<sup>th</sup> from CBSE Board</li>
+                  <li><span>2022-2025</span><br>BCA from Invertis University Bareilly</li>
+                </ul>
+               </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+<!------------------------portfolio------------------------------>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/gallery.jpg">
+            <div class="layer">
+              <h3>Image Gallery</h3>
+              <p>The Image Gallery allows you to watch all of your pictures.</p>
+              <a href="https://github.com/Ravi-6-9/CodeAlpha_Image_Gallery"><i class="fa-brands fa-github" style="color: #0249ab;"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/caculator.jpg">
+            <div class="layer">
+              <h3>Caculator</h3>
+              <p>The Calculator allows you to so do simple calculations.</p>
+              <a href="https://github.com/Ravi-6-9/CodeAlpha_Calculator"><i class="fa-brands fa-github" style="color: #0249ab;"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/website.jpg">
+            <div class="layer">
+              <h3>Portfolio Website</h3>
+              <p>The Portfolio Website contains all the information about me and my work.</p>
+              <a href="https://github.com/Ravi-6-9/CodeAlpha_Portfolio_Site"><i class="fa-brands fa-github" style="color: #0249ab;"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/Ravi-6-9" class="btn">See More...</a>
+      </div>
+    </div>
+<!------------------------Contact Section------------------------------>
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="colleft">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane" style="color: #0249ab;"></i>Ranger7225@gmail.com</p>
+        <p><i class="fa-solid fa-phone" style="color: #0249ab;"></i>+91 7982953612</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/ravi7225"><i class="fa-brands fa-linkedin" style="color: #0249ab;"></i></a>
+          <a href="https://github.com/Ravi-6-9"><i class="fa-brands fa-square-github" style="color: #0249ab;"></i></a>
+        </div>
+      </div>
+      <div class="colright">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright © Ravi.</p>
+  </div>
+</div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/55a7fe6b40.js" crossorigin="anonymous"></script>
+</body>
+</html>
